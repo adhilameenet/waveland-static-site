@@ -44,3 +44,16 @@ body {
 btncolor {
     background-color: #006994;
 }
+
+.carousel-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper {
+    width: 100%;
+    height: auto;
+}
