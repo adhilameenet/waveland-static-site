@@ -37,11 +37,11 @@ navigation: {
 
 // Scroll To Top
 
-const to_top = document.querySelector(".to_top");
-window.addEventListener("scroll", () => {
-    if(window.pageYOffset > 100) {
-      to_top.classList.add("active");
-    } else {
-      to_top.classList.remove("active");
-    }
-})
+// const to_top = document.querySelector(".to_top");
+// window.addEventListener("scroll", () => {
+//     if(window.pageYOffset > 100) {
+//       to_top.classList.add("active");
+//     } else {
+//       to_top.classList.remove("active");
+//     }
+// })
