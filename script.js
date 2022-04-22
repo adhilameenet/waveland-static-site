@@ -46,4 +46,5 @@ window.addEventListener("scroll", () => {
       }
 })
 
+// ScrollReveal JS
 

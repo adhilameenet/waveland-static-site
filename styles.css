@@ -55,17 +55,15 @@ body {
     z-index: 10;
     position: fixed;
     width: 100%;
+    height: 10vh;
   }
 
 .swipper-btn-color {
     color: black;
 }
 
-.nav-bg {
+.navbg {
     background-color:#006994;
 }
 
-#position_navbar {
-    height: 10vh;
-}
 
