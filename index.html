@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Waveland</title>
+  <link rel="icon" href="./images/logo.jpeg">
+  <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header>
+    <nav id="position_navbar" class="flex p-3 items-center nav-bg flex-wrap">
+      <a href="" class="p-2 mr-4 inline-flex items-center">
+        <span class="lg:pl-12 text-2xl text-white font-bold tracking-wider">WAVELAND</span>
+      </a>
+      <button
+        class="text-white inline-flex p-4 hover:bg-gray-800 rounded lg:hidden ml-auto hover:text-white outline-none nav-toggler"
+        data-target="#navigation_bar">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="hidden top-navbar w-full lg:inline-flex lg:flex-grow lg:w-auto" id="navigation_bar">
+        <div
+          class="lg:inline-flex lg:flex-row  lg:ml-auto lg:mr-40 lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto">
+          <a href="#home-section"
+            class="lg:inline-flex  lg:w-auto w-full px-4 py-3 rounded text-white items-center justify-center">Home</a>
+          <a href="#about-section"
+            class="lg:inline-flex  lg:w-auto w-full px-4 py-3 rounded text-white items-center justify-center">About</a>
+          <a href="#gallery-section"
+            class="lg:inline-flex  lg:w-auto w-full px-4 py-3 rounded text-white items-center justify-center">Gallery</a>
+          <a href="#contact-section"
+            class="lg:inline-flex lg:w-auto w-full px-4 py-3 rounded text-white items-center justify-center">Contact</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- carousel -->
+
+  <div id="home-section" class="swiper swiper-container">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper h-full">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <img src="./images/banner1.jpg" alt="banner_image">
+      </div>
+      <div class="swiper-slide">
+        <img src="./images/banner2.jpg" alt="banner_image">
+      </div>
+      <div class="swiper-slide">
+        <img src="./images/banner3.jpg" alt="banner_image">
+      </div>     
+    </div>
+    <!-- <div class="swiper-pagination"></div> -->
+
+    <div class="swipper-btn-color swiper-button-prev"></div>
+    <div class="swipper-btn-color swiper-button-next"></div>
+
+    <!-- <div class="swiper-scrollbar"></div> --> -->
+  </div>
+
+
+  <!-- About Us -->
+
+  <section id="about-section" class="border-b py-8">
+    <div class="container max-w-5xl mx-auto m-8">
+      <h1 class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800">
+        About Us
+      </h1>
+      <div class="flex flex-wrap">
+        <div class="w-5/6 sm:w-1/2 p-6">
+          <p class="text-gray-600 mb-8">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil praesentium quidem nostrum assumenda
+            commodi, et excepturi, dicta suscipit magni cumque eum expedita ut libero neque modi! Nam quasi error iusto
+            praesentium quod molestias in at totam reiciendis, corporis, nihil nulla nesciunt iure? Sapiente quo, fugiat
+            amet sed corrupti laudantium, totam laboriosam rerum accusantium non ratione in voluptatem quas nam et
+            debitis eius? Quibusdam soluta nesciunt iusto, magni molestiae eum incidunt excepturi, repellat non,
+            eligendi cumque! Dignissimos laborum amet pariatur voluptatem.
+            <br />
+            <br />
+          </p>
+        </div>
+        <div class="w-full sm:w-1/2 p-6">
+          <img src="./images/first.jpg" alt="first_image">
+        </div>
+      </div>
+      <div class="flex flex-wrap flex-col-reverse sm:flex-row">
+        <div class="w-full sm:w-1/2 p-6 mt-6">
+          <img src="./images/second.jpg" alt="second">
+        </div>
+        <div class="w-full sm:w-1/2 p-6 mt-6">
+          <div class="align-middle">
+            <p class="text-gray-600 mb-8">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum nesciunt eos possimus asperiores sed
+              blanditiis, deleniti animi beatae saepe atque, provident veritatis velit qui exercitationem et voluptates
+              doloremque molestiae at nemo porro cum quisquam earum incidunt! Expedita maiores quod mollitia aliquid
+              similique, reprehenderit itaque tempora dolores! Architecto qui suscipit minima quia ad? Perferendis dolor
+              officia iure blanditiis hic, illum, vel assumenda, et facere in suscipit amet eius officiis ex cupiditate
+              impedit provident tempore? Quos delectus nostrum et eveniet? A, sequi?
+              <br />
+              <br />
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+
+  <section id="gallery-section" class="overflow-hidden text-gray-700">
+    <h1 class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800">
+      Gallery
+    </h1>
+    <div class="container px-5 py-2 mx-auto lg:pt-24 lg:px-32">
+      <div class="flex flex-wrap -m-1 md:-m-2">
+        <div class="flex flex-wrap w-1/2">
+          <div class="w-1/2 p-1 md:p-2">
+            <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+              src="https://cdn.britannica.com/66/162466-131-47ADB66F/Man-butterfly-stroke-pool.jpg">
+          </div>
+          <div class="w-1/2 p-1 md:p-2">
+            <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+              src="https://cdn.britannica.com/66/162466-131-47ADB66F/Man-butterfly-stroke-pool.jpg">
+          </div>
+          <div class="w-full p-1 md:p-2">
+            <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+              src="https://cdn.britannica.com/66/162466-131-47ADB66F/Man-butterfly-stroke-pool.jpg">
+          </div>
+        </div>
+        <div class="flex flex-wrap w-1/2">
+          <div class="w-full p-1 md:p-2">
+            <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+              src="https://cdn.britannica.com/66/162466-131-47ADB66F/Man-butterfly-stroke-pool.jpg">
+          </div>
+          <div class="w-1/2 p-1 md:p-2">
+            <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+              src="https://cdn.britannica.com/66/162466-131-47ADB66F/Man-butterfly-stroke-pool.jpg">
+          </div>
+          <div class="w-1/2 p-1 md:p-2">
+            <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+              src="https://cdn.britannica.com/66/162466-131-47ADB66F/Man-butterfly-stroke-pool.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Contact Us -->
+
+
+  <section id="contact-section" class="text-gray-600 body-font relative">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mb-12">
+        <h1 class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800">
+          Contact Us
+        </h1>
+      </div>
+      <div class="lg:w-1/2 md:w-2/3 mx-auto">
+        <div class="flex flex-wrap -m-2">
+          <div class="p-2 w-1/2">
+            <div class="relative">
+              <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
+              <input type="text" id="name" name="name"
+                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+          </div>
+          <div class="p-2 w-1/2">
+            <div class="relative">
+              <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+              <input type="email" id="email" name="email"
+                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+          </div>
+          <div class="p-2 w-full">
+            <div class="relative">
+              <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+              <textarea id="message" name="message"
+                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+            </div>
+          </div>
+          <div class="p-2 w-full">
+            <button
+              class="btncolor flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footercolor text-black body-font">
+    <div class="container px-5 py-4 mx-auto flex items-center sm:flex-row flex-col">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+        <span class="ml-3 text-xl text-white">WAVELAND</span>
+      </a>
+      <p class="text-sm text-white sm:ml-4 sm:pl-4 sm:border-l-2  sm:py-2 sm:mt-0 mt-4">© All Rights Reserved</p>
+      <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+        <a class="text-white">
+          <i class="fa-brands fa-facebook"></i> 
+        </a>
+        <a class="ml-3 text-white">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a class="ml-3 text-white">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a class="ml-3 text-white">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+      </span>
+    </div>
+  </footer>
+
+  <!-- custom javascript -->
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/a252f45a43.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
