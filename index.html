@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Waveland</title>
-  <link rel="icon" href="./images/logo.jpeg">
+  <link rel="icon" href="./images/hero.png">
   <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" />
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
@@ -16,7 +16,7 @@
 
 <body>
   <header>
-    <nav id="position_navbar" class="flex p-1 items-center nav-bg flex-wrap">
+    <nav id="position_navbar" class="nav-bg flex p-1 items-center flex-wrap">
       <a href="#" class="p-2 mr-4 inline-flex items-center">
         <span class="lg:pl-12 text-2xl text-white font-bold tracking-wider">Waveland</span>
       </a>
@@ -25,7 +25,7 @@
         data-target="#navigation_bar">
         <i class="fas fa-bars"></i>
       </button>
-      <div class="hidden top-navbar w-full lg:inline-flex lg:flex-grow lg:w-auto" id="navigation_bar">
+      <div class="nav-bg hidden top-navbar w-full lg:inline-flex lg:flex-grow lg:w-auto" id="navigation_bar">
         <div
           class="lg:inline-flex lg:flex-row  lg:ml-auto lg:mr-40 lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto">
           <a href="#home-section"
@@ -44,9 +44,7 @@
   <!-- carousel -->
 
   <div id="home-section" class="swiper swiper-container">
-    <!-- Additional required wrapper -->
     <div style="margin-top: 10vh;" class="swiper-wrapper">
-      <!-- Slides -->
       <div class="swiper-slide">
         <img src="./images/banner1.jpg" alt="banner_image">
       </div>
@@ -57,14 +55,12 @@
         <img src="./images/banner3.jpg" alt="banner_image">
       </div>     
     </div>
-    <!-- <div class="swipper-btn-color swiper-button-prev"></div>
-    <div class="swipper-btn-color swiper-button-next"></div> -->
-  </div>
+  </div> 
 
 
   <!-- About Us -->
 
-  <section id="about-section" class="border-b py-8">
+  <section id="about-section" class="py-8">
     <div class="container max-w-5xl mx-auto m-8">
       <h1 class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800">
         About Us
@@ -152,7 +148,7 @@
   <!-- Contact Us -->
 
 
-  <section id="contact-section" class="text-gray-600 body-font relative">
+  <section id="contact-section" class="text-gray-600 body-font">
     <div class="container px-5 py-24 mx-auto">
       <div class="flex flex-col text-center w-full mb-12">
         <h1 class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800">
@@ -183,8 +179,9 @@
             </div>
           </div>
           <div class="p-2 w-full">
-            <button
-              class="btncolor flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Send</button>
+            <button class="flex mx-auto bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+              Submit
+            </button>
           </div>
         </div>
       </div>
@@ -193,7 +190,7 @@
 
   <footer class="footercolor text-black body-font">
     <div class="container px-5 py-4 mx-auto flex items-center sm:flex-row flex-col">
-      <p class="text-sm text-white sm:ml-4 sm:pl-4 sm:border-l-2  sm:py-2 sm:mt-0 mt-4">© 2022 Waveland - All Rights Reserved</p>
+      <p class="text-sm text-white sm:ml-4 sm:pl-4 sm:py-2 sm:mt-0 mt-4">© 2022 Waveland - All Rights Reserved</p>
       <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
         <a class="text-white">
           <i class="fa-brands fa-facebook"></i> 
@@ -211,10 +208,11 @@
     </div>
   </footer>
 
-  <!-- custom javascript -->
+  <!-- Swiper JS -->
   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <!-- custom javascript -->
   <script src="script.js"></script>
+  <!-- FontAwesome -->
   <script src="https://kit.fontawesome.com/a252f45a43.js" crossorigin="anonymous"></script>
 </body>
-
 </html>
