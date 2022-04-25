@@ -1,3 +1,23 @@
+
+//  Form Submission
+ 
+ $("#submit-form").submit((e)=>{
+  e.preventDefault()
+  $.ajax({
+      url:"https://script.google.com/macros/s/AKfycbz3w2lOUN-0V4kmoykKMElOt4vn9DEiWdNSCK-EGN3x_2Ml7eiFWF6rTBQTnHoKoo0a/exec",
+      data:$("#submit-form").serialize(),
+      method:"post",
+      success:function (response){
+          alert("Form submitted successfully")
+          window.location.reload()
+      },
+      error:function (err){
+          alert("Something Error")
+
+      }
+  })
+})
+
 $(document).ready(function () {
   $(".nav-toggler").each(function (_, navToggler) {
    var target = $(navToggler).data("target");
