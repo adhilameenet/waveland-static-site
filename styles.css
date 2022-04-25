@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 html {
     scroll-behavior: smooth;
@@ -15,15 +13,8 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-
-
-.footercolor {
-    background-color: #006994;
-}
-
-
   
-  /* navbar position */
+/* navbar position */
   
   #position_navbar {
     z-index: 100;
@@ -38,6 +29,10 @@ body {
 
 .nav-bg {
     background-color:#1588b6;
+}
+
+.footercolor {
+    background-color: #006994;
 }
 
 
